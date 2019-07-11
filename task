@@ -1,0 +1,39 @@
+arr = [1,1,3,3,2,2,4,5,5,6,6,7,7,....n,n]
+
+Write a logic to get the no. with missing pair
+
+for i in range(len(arr)):
+    if (a[i]!=a[i+1]):
+        return(a[i])
+    else: 
+        i=i+2
+        
+        
+Stack LIFO, Queues FIFO
+
+Can u write a login to make queue using stack.
+
+S1<<values
+
+
+Queue():
+{
+    S1, S2
+    S1=[]
+    S2=[]
+    S1.append('a')
+    S1.append('b')
+    S1.append('c')
+    S1.append('d')  //S1{a,b,c,d}
+    x=len(S1)
+    for i in range(len(S1)):
+        S2.append(S1.pop(x-i)) //S2{d,c,b,a}
+    //so now our S2 will act as a queue
+}
+
+Dequeue()
+{
+
+}
+ 
+    
